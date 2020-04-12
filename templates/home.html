@@ -1,0 +1,12 @@
+<h1>This is HTML response</h1>
+
+CreatedBy: {{ Creator }} <br>
+On: {{Date}}
+
+<a href="{% url 'about' %}"> About</a>
+<form action="{% url 'countpage' %}">
+<textarea cols="40" rows="5" name="fulltext"></textarea>
+<br>
+<input type="submit" value="Count!" /> <br>
+<button>Submit</button
+</form>
